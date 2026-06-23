@@ -89,7 +89,7 @@ html {
 
 .content__video-card-thumbnail {
   display: flex;
-  min-width: 194px;
+  width: 194px;
   height: 103px;
   object-fit: cover;
   object-position: center;
@@ -182,7 +182,7 @@ html {
   font-size: 75px;
   line-height: 94%;
   padding-bottom: 26px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
