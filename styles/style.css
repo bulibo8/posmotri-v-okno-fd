@@ -1,3 +1,22 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 *,
 *::before,
 *::after {
@@ -119,7 +138,8 @@ html {
 
 .search-form__textfield {
   width: 225px;
-  font-size: 16px;
+  font-family: inherit;
+  font-size: 18px;
   font-weight: 400;
   appearance: none;
   border: none;
@@ -178,7 +198,7 @@ html {
 
 .title {
   font-weight: 700;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   line-height: 94%;
   padding-bottom: 26px;
@@ -224,7 +244,7 @@ html {
 .content__video-card-title {
   font-weight: 700;
   font-size: 30px;
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 6px;
@@ -295,25 +315,6 @@ html {
 
 .preloader {
   position: relative;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
 }
 
 /* Кастомный скроллбар */
